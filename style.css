@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1ece9;
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  height: 142px;
+  padding: 0px 10px;
+}
+
+.headerIcons {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.headerIcons img {
+  padding-left: 59px;
+}
+
+.headerNavigationIcon {
+  height: 142px;
+  width: 97px;
+  background-color: transparent;
+  border: none;
+  border-right: 1px solid #dad5d1;
+  padding: 0 20px;
+}
+
+.headerNavigation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.headerNavigation a {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #171412;
+  padding: 29px 0px;
+  margin-right: 50px;
+}
+
+.firstSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  margin-top: 80px;
+  width: 1370px;
+}
+
+.firstSectionText {
+  padding: none;
+  width: 55%;
+}
+
+.firstSectionText h1 {
+  font-family: Kinghood, Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+}
+
+.firstSectionText p {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2;
+  color: #625e5c;
+  padding-right: 150px;
+  margin-top: 10px;
+}
+
+.firstSectionImage {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+}
+
+.firstSectionImage img {
+  border-radius: 500px 500px 0 0;
+  object-fit: cover;
+  width: 400px;
+  height: 614px;
+  outline: 1px solid #a7a3a1;
+  outline-offset: 15px;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+@font-face {
+  font-family: Kinghood;
+  src: url(./fonts/Kinghood.woff2);
+}
